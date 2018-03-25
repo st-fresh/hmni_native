@@ -37,6 +37,17 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		B15EB81D2067183100FDF1F9 /* OTSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = B15EB8102067182400FDF1F9 /* OTSubscriber.m */; };
+		B15EB81E2067183100FDF1F9 /* OTSubscriberManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15EB8112067182600FDF1F9 /* OTSubscriberManager.swift */; };
+		B15EB81F2067183200FDF1F9 /* OTRN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15EB8122067182700FDF1F9 /* OTRN.swift */; };
+		B15EB8202067183200FDF1F9 /* OTSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B15EB8132067182700FDF1F9 /* OTSessionManager.m */; };
+		B15EB8212067183200FDF1F9 /* OTSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15EB8142067182800FDF1F9 /* OTSessionManager.swift */; };
+		B15EB8222067183200FDF1F9 /* hmni.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = B15EB8172067182B00FDF1F9 /* hmni.xcworkspace */; };
+		B15EB8232067183200FDF1F9 /* OTPublisher.m in Sources */ = {isa = PBXBuildFile; fileRef = B15EB8182067182C00FDF1F9 /* OTPublisher.m */; };
+		B15EB8242067183200FDF1F9 /* OTPublisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15EB8192067182D00FDF1F9 /* OTPublisherManager.swift */; };
+		B15EB8252067183200FDF1F9 /* OTSubscriberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15EB81A2067182E00FDF1F9 /* OTSubscriberView.swift */; };
+		B15EB8262067183200FDF1F9 /* OTPublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15EB81B2067182F00FDF1F9 /* OTPublisherView.swift */; };
+		E7EE29F0781698FDA61AFF09 /* Pods_hmni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B30224A4E18A6D16FA2FD2 /* Pods_hmni.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -257,6 +268,62 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
+		B15EB7CD2067149000FDF1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		B15EB7CF2067149000FDF1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		B15EB7D12067149000FDF1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		B15EB7D32067149000FDF1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		B15EB7D52067149000FDF1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		B15EB7D72067149000FDF1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		B15EB7D92067149000FDF1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9936F3131F5F2E4B0010BF04;
+			remoteInfo = privatedata;
+		};
+		B15EB7DB2067149000FDF1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
+			remoteInfo = "privatedata-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -283,9 +350,26 @@
 		2D02E4901E0B4A5D006451C7 /* hmni-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hmni-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		6CE63CE5314ADC255EC93D9E /* Pods-hmni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmni.release.xcconfig"; path = "Pods/Target Support Files/Pods-hmni/Pods-hmni.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		82B30224A4E18A6D16FA2FD2 /* Pods_hmni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hmni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		B15EB7EA2067182200FDF1F9 /* hmni-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hmni-Bridging-Header.h"; sourceTree = "<group>"; };
+		B15EB8102067182400FDF1F9 /* OTSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSubscriber.m; sourceTree = "<group>"; };
+		B15EB8112067182600FDF1F9 /* OTSubscriberManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTSubscriberManager.swift; sourceTree = "<group>"; };
+		B15EB8122067182700FDF1F9 /* OTRN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTRN.swift; sourceTree = "<group>"; };
+		B15EB8132067182700FDF1F9 /* OTSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSessionManager.m; sourceTree = "<group>"; };
+		B15EB8142067182800FDF1F9 /* OTSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTSessionManager.swift; sourceTree = "<group>"; };
+		B15EB8152067182900FDF1F9 /* OTSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSubscriber.h; sourceTree = "<group>"; };
+		B15EB8162067182A00FDF1F9 /* OTPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPublisher.h; sourceTree = "<group>"; };
+		B15EB8172067182B00FDF1F9 /* hmni.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = hmni.xcworkspace; sourceTree = "<group>"; };
+		B15EB8182067182C00FDF1F9 /* OTPublisher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPublisher.m; sourceTree = "<group>"; };
+		B15EB8192067182D00FDF1F9 /* OTPublisherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPublisherManager.swift; sourceTree = "<group>"; };
+		B15EB81A2067182E00FDF1F9 /* OTSubscriberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTSubscriberView.swift; sourceTree = "<group>"; };
+		B15EB81B2067182F00FDF1F9 /* OTPublisherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPublisherView.swift; sourceTree = "<group>"; };
+		B15EB81C2067183000FDF1F9 /* hmni-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hmni-Bridging-Header.h"; sourceTree = "<group>"; };
+		EB670511D5C1220951282C06 /* Pods-hmni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmni.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hmni/Pods-hmni.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,6 +398,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				E7EE29F0781698FDA61AFF09 /* Pods_hmni.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +509,19 @@
 		13B07FAE1A68108700A75B9A /* hmni */ = {
 			isa = PBXGroup;
 			children = (
+				B15EB81C2067183000FDF1F9 /* hmni-Bridging-Header.h */,
+				B15EB8172067182B00FDF1F9 /* hmni.xcworkspace */,
+				B15EB8162067182A00FDF1F9 /* OTPublisher.h */,
+				B15EB8182067182C00FDF1F9 /* OTPublisher.m */,
+				B15EB8192067182D00FDF1F9 /* OTPublisherManager.swift */,
+				B15EB81B2067182F00FDF1F9 /* OTPublisherView.swift */,
+				B15EB8122067182700FDF1F9 /* OTRN.swift */,
+				B15EB8132067182700FDF1F9 /* OTSessionManager.m */,
+				B15EB8142067182800FDF1F9 /* OTSessionManager.swift */,
+				B15EB8152067182900FDF1F9 /* OTSubscriber.h */,
+				B15EB8102067182400FDF1F9 /* OTSubscriber.m */,
+				B15EB8112067182600FDF1F9 /* OTSubscriberManager.swift */,
+				B15EB81A2067182E00FDF1F9 /* OTSubscriberView.swift */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -431,6 +529,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				B15EB7EA2067182200FDF1F9 /* hmni-Bridging-Header.h */,
 			);
 			name = hmni;
 			sourceTree = "<group>";
@@ -439,13 +538,21 @@
 			isa = PBXGroup;
 			children = (
 				146834041AC3E56700842450 /* libReact.a */,
+				3DAD3EA31DF850E9000B6D8A /* libReact.a */,
 				3DAD3EA51DF850E9000B6D8A /* libyoga.a */,
 				3DAD3EA71DF850E9000B6D8A /* libyoga.a */,
 				3DAD3EA91DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
 				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
-				3DAD3EA31DF850E9000B6D8A /* libReact-tvOS.a */,
+				B15EB7CE2067149000FDF1F9 /* libjsinspector.a */,
+				B15EB7D02067149000FDF1F9 /* libjsinspector-tvOS.a */,
+				B15EB7D22067149000FDF1F9 /* libthird-party.a */,
+				B15EB7D42067149000FDF1F9 /* libthird-party.a */,
+				B15EB7D62067149000FDF1F9 /* libdouble-conversion.a */,
+				B15EB7D82067149000FDF1F9 /* libdouble-conversion.a */,
+				B15EB7DA2067149000FDF1F9 /* libprivatedata.a */,
+				B15EB7DC2067149000FDF1F9 /* libprivatedata-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -454,6 +561,7 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				82B30224A4E18A6D16FA2FD2 /* Pods_hmni.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -512,6 +620,7 @@
 				00E356EF1AD99517003FC87E /* hmniTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				DAF91BC5062EDD048CAB8934 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -536,6 +645,15 @@
 				2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF91BC5062EDD048CAB8934 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB670511D5C1220951282C06 /* Pods-hmni.debug.xcconfig */,
+				6CE63CE5314ADC255EC93D9E /* Pods-hmni.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -563,10 +681,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "hmni" */;
 			buildPhases = (
+				447D7EC1076C7650818EEEC1 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				9F3DECC1E1A47A4DFAAD38D2 /* [CP] Embed Pods Frameworks */,
+				A1C8D48638C35D60319A674E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -625,6 +746,9 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 0920;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -828,10 +952,10 @@
 			remoteRef = 3DAD3E981DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3DAD3EA31DF850E9000B6D8A /* libReact-tvOS.a */ = {
+		3DAD3EA31DF850E9000B6D8A /* libReact.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libReact-tvOS.a";
+			path = libReact.a;
 			remoteRef = 3DAD3EA21DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -912,6 +1036,62 @@
 			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		B15EB7CE2067149000FDF1F9 /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = B15EB7CD2067149000FDF1F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B15EB7D02067149000FDF1F9 /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = B15EB7CF2067149000FDF1F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B15EB7D22067149000FDF1F9 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = B15EB7D12067149000FDF1F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B15EB7D42067149000FDF1F9 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = B15EB7D32067149000FDF1F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B15EB7D62067149000FDF1F9 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = B15EB7D52067149000FDF1F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B15EB7D82067149000FDF1F9 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = B15EB7D72067149000FDF1F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B15EB7DA2067149000FDF1F9 /* libprivatedata.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libprivatedata.a;
+			remoteRef = B15EB7D92067149000FDF1F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B15EB7DC2067149000FDF1F9 /* libprivatedata-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprivatedata-tvOS.a";
+			remoteRef = B15EB7DB2067149000FDF1F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -928,6 +1108,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				B15EB8222067183200FDF1F9 /* hmni.xcworkspace in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,6 +1158,54 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		447D7EC1076C7650818EEEC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hmni-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F3DECC1E1A47A4DFAAD38D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hmni/Pods-hmni-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1C8D48638C35D60319A674E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hmni/Pods-hmni-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -992,7 +1221,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15EB81D2067183100FDF1F9 /* OTSubscriber.m in Sources */,
+				B15EB8252067183200FDF1F9 /* OTSubscriberView.swift in Sources */,
+				B15EB8232067183200FDF1F9 /* OTPublisher.m in Sources */,
+				B15EB8262067183200FDF1F9 /* OTPublisherView.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				B15EB8212067183200FDF1F9 /* OTSessionManager.swift in Sources */,
+				B15EB8242067183200FDF1F9 /* OTPublisherManager.swift in Sources */,
+				B15EB81E2067183100FDF1F9 /* OTSubscriberManager.swift in Sources */,
+				B15EB8202067183200FDF1F9 /* OTSessionManager.m in Sources */,
+				B15EB81F2067183200FDF1F9 /* OTRN.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1045,6 +1283,7 @@
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1065,6 +1304,7 @@
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = hmniTests/Info.plist;
@@ -1081,8 +1321,10 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB670511D5C1220951282C06 /* Pods-hmni.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = hmni/Info.plist;
@@ -1093,14 +1335,19 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = hmni;
+				SWIFT_OBJC_BRIDGING_HEADER = "hmni-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE63CE5314ADC255EC93D9E /* Pods-hmni.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = hmni/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1110,6 +1357,8 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = hmni;
+				SWIFT_OBJC_BRIDGING_HEADER = "hmni-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
